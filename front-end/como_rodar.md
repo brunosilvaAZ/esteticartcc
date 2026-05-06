@@ -24,7 +24,7 @@ npm run dev
 Acesse: http://localhost:5173
 ⚙️ Passo 5 — Verifique o .env
 Confirme que o arquivo .env existe na raiz com:
-VITE_SUPABASE_URL=httpsz://xxxxxxxxxxxx.supabase.co
+VITE_SUPABASE_URL=https://xxxxxxxxxxxx.supabase.co
 VITE_SUPABASE_ANON_KEY=eyJhbGciOiJIUzI1...
 As chaves ficam em: Supabase → Project Settings → API
 
