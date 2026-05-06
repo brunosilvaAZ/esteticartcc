@@ -2,8 +2,10 @@ import { Link, useLocation, useNavigate } from 'react-router-dom'
 import { logout } from '../../services/authService'
 
 const menu = [
-  { label: 'Dashboard', path: '/dashboard', icon: '📊' },
-  { label: 'Clientes',  path: '/clientes',  icon: '👤' },
+  { label: 'Dashboard',    path: '/dashboard',    icon: '📊' },
+  { label: 'Clientes',     path: '/clientes',     icon: '👤' },
+  { label: 'Serviços',     path: '/servicos',     icon: '✨' },
+  { label: 'Agendamentos', path: '/agendamentos', icon: '📅' },
 ]
 
 export default function Navbar() {

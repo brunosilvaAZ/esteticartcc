@@ -73,6 +73,9 @@ export default function Clientes() {
                 <button onClick={() => excluirCliente(cliente.id)} className="text-sm text-red-400 hover:text-red-300 transition">
                   Excluir
                 </button>
+                
+
+                
               </div>
             </div>
           ))}
